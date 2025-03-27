@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <title>Alex-Code</title>
+</head>
+<body id="body" >
+    
+    
+     <!-- Ladebildschirm -->
+  <div id="preloader">
+    <div class="logo">AC<span>.</span></div>
+    <div class="loader"></div>
+  </div>
+
+
+  <div id="content">
+     <header id="header" > 
+      
+      <h3 id="headlineDrei" class="headlineDrei" >AC<span class="spanPunkt" >.</span></h3>
+
+       <nav class="Navigation" >
+         <p onclick="scrollToHome()" class="Home-Link" >Home</p>
+         <p onclick="scrollToAboutMe()" class="About-Us-Link" >About Us</p>
+         <p onclick="scrollToContact()" class="Contact-Link" >Contact</p>
+         <p onclick="scrollToJoinTheMovement()" class="LogIn-Link"   >Join The Movement</p>
+       </nav>
+       <div class="switch-container" >
+          <input id="switch" class="switch-button" type="checkbox">
+          <label for="switch" class="switch-label" ></label>
+       </div>
+     </header>
+
+     <div id="particles-js"></div>
+     <ul>
+        <li>A</li>
+        <li>L</li>
+        <li>E</li>
+        <li>X</li>
+        <li>-</li>
+        <li>C</li>
+        <li>O</li>
+        <li>D</li>
+        <li>E</li>
+      </ul>
+
+      <div class="scroll-arrow" id="scrollArrow">
+        <i class="fas fa-chevron-down" id="arrowIcon"></i>
+      </div>
+
+   <section id="contact" class="contact" >
+    <h2 class="contact-headline" >Kontakt</h2>
+    <p class="contact-paragraph" >Füllen Sie das Formular aus, um mir eine E-Mail zu senden!</p>
+   <form id="contactForm">
+       <input type="text" name="name" placeholder="Ihr Name" required>
+       <input type="email" name="email" placeholder="Ihre E-Mail-Adresse" required>
+       <textarea name="message" placeholder="Ihre Nachricht" rows="5" required></textarea>
+       <button id="button" type="submit">Nachricht senden</button>
+   </form>
+   </section>
+
+   <section id="Registrieren" class="Registrieren" >
+     <h2 class="Registrieren-headline" >Join The Movement</h2>
+     <p class="Registrieren-paragraph" >Loggen Sie sich bei Alex-Code! ein</p>
+
+     <form id="RegistrierenForm" class="RegistrierenForm">
+       <input type="email" placeholder="Ihre E-Mail-Adresse" required>
+       <input type="password" placeholder="Ihr Passwort" required>
+       <input type="password" placeholder="Passwort bestätigen" required>
+       <button id="RegistrierenButton" type="submit">Registrieren</button>
+       <p class="forgot-password" >Passwort vergessen?</p>
+   </section>
+
+  <footer id="footer" >
+
+        <section>
+     
+        <div class="footer-contact">
+
+         <h4 style="text-decoration: underline;" >Kontakt:</h4>
+         <p>Kontaktieren Sie uns: <a href="mailto:info@deinefirma.de">deinEmail</a></p>
+         <p>Telefon: ##########</p>
+         <p>Adresse: ##########</p>
+
+     </div>
+   
+       <div class="Wichtige-links" >
+  
+          <h4 style="text-decoration: underline;"  >Wichtige Links:</h4>
+          <a class="Links-linkeSeite1" href="#" >Über Uns</a>
+          <a class="Links-linkeSeite2" href="#" >Impressum</a> 
+          <a class="Links-linkeSeite3" href="#" >Datenschutz</a>
+          <a class="Links-rechteSeite1" href="#" >AGB</a>
+          <a class="Links-rechteSeite2" href="#" >FAQ</a>
+       </div>
+
+
+       <div>
+         <p class="Alle-Rechte" >© 2024 Alex-Code. Alle Rechte vorbehalten.</p>
+       </div>
+   
+          <div class="social-icons">
+           <a href="https://github.com/Alex-10A/Alex-10A" target="_blank" aria-label="GitHub">
+               <i class="fab fa-github"></i>
+           </a>
+           <a href="https://www.instagram.com/alex.l10_/" target="_blank" aria-label="Instagram">
+               <i class="fab fa-instagram"></i>
+           </a>
+           <a href="#" target="_blank" aria-label="Facebook">
+               <i class="fab fa-facebook-f"></i>
+           </a>
+       </div>
+   </section>
+
+  </footer>
+    
+</div>
+          <script src="script.js" ></script>
+          <!-- Im <head> oder vor dem schließenden </body> -->
+<script src="particle.js/particles.js-master/particles.min.js"></script>
+</body>
+</html>
